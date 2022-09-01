@@ -36,6 +36,21 @@ export const Tittel = styled.h1`
   margin-top: -20px;
 `;
 
+export const StyledButton = styled.button`
+  width: 115px;
+  padding: 10px;
+  color: #008cea;
+  font-weight: bold;
+  text-align: center;
+
+  background: rgba(6, 146, 170, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  -webkit-backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(6, 146, 170, 0.65);
+`;
+
 const Home = () => {
   const navigate = useNavigate();
   return (
@@ -61,9 +76,9 @@ const Home = () => {
                   <br></br> but now I'm learning Javascript, html, css and
                   react.
                 </p>
-                <button onClick={() => navigate("/Biography")}>
+                <StyledButton onClick={() => navigate("/Biography")}>
                   Learn more
-                </button>
+                </StyledButton>
               </MarginDiv>
             </Container>
           </Column>

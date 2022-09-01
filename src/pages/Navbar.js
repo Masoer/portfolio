@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = styled.ul`
   display: flex;
@@ -25,4 +26,16 @@ export const Navdiv = styled.div`
   display: flex;
   justify-content: space-evenly;
   width: 50%;
+`;
+
+export const StyledLink = styled(NavLink)`
+  color: #008cea;
+  text-decoration: none;
+  background: none;
+  list-style: none;
+  font-weight: bold;
+
+  &.active {
+    text-decoration: underline;
+  }
 `;
