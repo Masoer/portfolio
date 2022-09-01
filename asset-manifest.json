@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolie/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolie/static/js/main.16a59057.js",
+    "static/js/787.33f8df9d.chunk.js": "/portfolie/static/js/787.33f8df9d.chunk.js",
+    "static/media/ProjectShop.png": "/portfolie/static/media/ProjectShop.418baa669c1a95f447ac.png",
+    "static/media/PicMe.jpg": "/portfolie/static/media/PicMe.b233e0f874b1deecec64.jpg",
+    "index.html": "/portfolie/index.html",
+    "main.e6c13ad2.css.map": "/portfolie/static/css/main.e6c13ad2.css.map",
+    "main.16a59057.js.map": "/portfolie/static/js/main.16a59057.js.map",
+    "787.33f8df9d.chunk.js.map": "/portfolie/static/js/787.33f8df9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.16a59057.js"
+  ]
+}
