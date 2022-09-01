@@ -1,5 +1,6 @@
 import PicMe from "./PicMe.jpg";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 export const Column = styled.div`
   display: flex;
@@ -36,6 +37,7 @@ export const Tittel = styled.h1`
 `;
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Container>
@@ -59,7 +61,9 @@ const Home = () => {
                   <br></br> but now I'm learning Javascript, html, css and
                   react.
                 </p>
-                <button>Learn more</button>
+                <button onClick={() => navigate("/Biography")}>
+                  Learn more
+                </button>
               </MarginDiv>
             </Container>
           </Column>
