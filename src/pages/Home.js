@@ -22,7 +22,7 @@ export const NewSection = styled.section`
 export const Image = styled.img`
   display: flex;
   flex-direction: row;
-  height: 575px;
+  height: 93vh;
   width: auto;
 `;
 
