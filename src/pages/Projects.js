@@ -28,7 +28,7 @@ export const BoxDiv = styled.div`
   -webkit-backdrop-filter: blur(9.1px);
   border: 1px solid rgba(6, 146, 170, 0.65);
 
-  width: 40vw;
+  width: 37vw;
   height: 45vh;
   align-items: center;
   margin-left: 7.5vh;
