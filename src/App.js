@@ -14,7 +14,7 @@ function App() {
       <Navbar sticky="top">
         <br></br>
         <Navdiv>
-          <StyledLink to="/Home"> Home </StyledLink>
+          <StyledLink to="/"> Home </StyledLink>
           <StyledLink to="/Biography"> Biography</StyledLink>
           <StyledLink to="/Projects">Projects</StyledLink>
           <StyledLink to="/Contact"> Contact</StyledLink>

@@ -6,6 +6,7 @@ import {
   NewSection,
   Image,
   StyledButton,
+  ImagePhone,
 } from "./Home";
 import Info from "./Info";
 import PicMe from "./PicMe.jpg";
@@ -19,6 +20,7 @@ const Biography = () => {
   const navigate = useNavigate();
   return (
     <>
+      <ImagePhone src={PicMe} alt="me" />
       <Container>
         <NewSection>
           <Column>
@@ -27,7 +29,6 @@ const Biography = () => {
               <MarginDiv>
                 <h2>Biography</h2>
 
-                <br></br>
                 <WidthDiv>
                   <Info />
                   <StyledButton onClick={() => navigate(-1)}>Back</StyledButton>

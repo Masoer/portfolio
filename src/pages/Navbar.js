@@ -20,6 +20,10 @@ export const Navbar = styled.ul`
   backdrop-filter: blur(9.1px);
   -webkit-backdrop-filter: blur(9.1px);
   border: 1px solid rgba(6, 146, 170, 0.65);
+
+  @media only screen and (max-width: 40em) {
+    align-items: none;
+  }
 `;
 
 export const Navdiv = styled.div`

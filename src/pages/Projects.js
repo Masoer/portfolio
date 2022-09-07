@@ -3,7 +3,15 @@ import styled from "styled-components";
 
 export const WebshopImage = styled.img`
   width: auto;
-  height: 200px;
+  height: 30vh;
+
+  @media only screen and (max-width: 40em) {
+    height: 20vh;
+  }
+
+  @media only screen and (min-width: 110em) {
+    height: 20vh;
+  }
 `;
 
 export const MainDiv = styled.div`
