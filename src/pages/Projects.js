@@ -9,7 +9,7 @@ export const WebshopImage = styled.img`
     height: 20vh;
   }
 
-  @media only screen and (min-width: 110em) {
+  @media only screen and (min-width: 100em) {
     height: 20vh;
   }
 `;
