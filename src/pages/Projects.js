@@ -6,12 +6,9 @@ export const WebshopImage = styled.img`
   height: 30vh;
 
   @media only screen and (max-width: 40em) {
+    //mobile friendly
     height: 20vh;
   }
-
-  /* @media only screen and (min-width: 100em) {
-    height: 20vh;
-  } */
 `;
 
 export const MainDiv = styled.div`
@@ -34,6 +31,7 @@ export const BoxDiv = styled.div`
   margin-left: 7.5vh;
 
   @media only screen and (max-width: 40em) {
+    //mobile friendly
     width: 85vw;
     height: 31vh;
     margin: 0 auto;
