@@ -9,9 +9,9 @@ export const WebshopImage = styled.img`
     height: 20vh;
   }
 
-  @media only screen and (min-width: 100em) {
+  /* @media only screen and (min-width: 100em) {
     height: 20vh;
-  }
+  } */
 `;
 
 export const MainDiv = styled.div`
@@ -28,10 +28,16 @@ export const BoxDiv = styled.div`
   -webkit-backdrop-filter: blur(9.1px);
   border: 1px solid rgba(6, 146, 170, 0.65);
 
-  max-width: 500px;
-  max-height: 500px;
+  width: 40vw;
+  height: 45vh;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 7.5vh;
+
+  @media only screen and (max-width: 40em) {
+    width: 85vw;
+    height: 31vh;
+    margin: 0 auto;
+  }
 `;
 
 const Projects = () => {
