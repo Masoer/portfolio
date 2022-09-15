@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.3vw;
 
         @media only screen and (max-width: 40em) {
-          font-size: 4.5vw;
+          font-size: 5vw;
         }
     };
     body {

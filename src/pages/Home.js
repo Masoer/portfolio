@@ -77,7 +77,7 @@ export const StyledButton = styled.button`
   border: 1px solid rgba(6, 146, 170, 0.65);
 
   @media only screen and (max-width: 40em) {
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 `;
 
