@@ -1,6 +1,4 @@
-import PicMe from "./PicMe.jpg";
 import styled from "styled-components";
-import { useNavigate } from "react-router-dom";
 
 export const Column = styled.div`
   display: flex;
@@ -80,39 +78,3 @@ export const StyledButton = styled.button`
     margin-bottom: 3vh;
   }
 `;
-
-const Home = () => {
-  const navigate = useNavigate();
-  return (
-    <>
-      <ImagePhone src={PicMe} alt="me" />
-      <Container>
-        <NewSection>
-          <Column>
-            <Image src={PicMe} alt="me" />
-            <Container>
-              <MarginDiv>
-                <Tittel>MARGRETHE</Tittel>
-                <Tittel>SOFIE</Tittel>
-                <h3>
-                  Hello! I am Margrethe Sofie Erstad. <br></br>I am a frontend
-                  developer based in Norway.
-                </h3>
-                <p>
-                  I have a masters in Archaeology from the University of Bergen,{" "}
-                  <br></br> but now I'm learning Javascript, html, css and
-                  react.
-                </p>
-                <StyledButton onClick={() => navigate("/Biography")}>
-                  Learn more
-                </StyledButton>
-              </MarginDiv>
-            </Container>
-          </Column>
-        </NewSection>
-      </Container>
-    </>
-  );
-};
-
-export default Home;

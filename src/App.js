@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import GlobalStyle from "./Globalcomponents/Globalstyle";
-import { Navbar, Navdiv, StyledLink } from "./pages/Navbar";
-import Biography from "./pages/Biography";
+import Home from "./pages/HomePage";
+import Projects from "./pages/ProjectsPage";
+import Contact from "./pages/ContactPage";
+import GlobalStyle from "./styles/Globalstyle";
+import { Navbar, Navdiv, StyledLink } from "./components/Navbar";
+import Biography from "./pages/BiographyPage";
 
 function App() {
   return (
@@ -15,17 +15,17 @@ function App() {
         <br></br>
         <Navdiv>
           <StyledLink to="/"> Home </StyledLink>
-          <StyledLink to="/Biography"> Biography</StyledLink>
-          <StyledLink to="/Projects">Projects</StyledLink>
-          <StyledLink to="/Contact"> Contact</StyledLink>
+          <StyledLink to="/BiographyPage"> Biography</StyledLink>
+          <StyledLink to="/ProjectsPage">Projects</StyledLink>
+          <StyledLink to="/ContactPage"> Contact</StyledLink>
         </Navdiv>
       </Navbar>
 
       <Routes>
         <Route path="*" element={<Home />} />
-        <Route path="/Biography" element={<Biography />} />
-        <Route path="/Projects" element={<Projects />} />/
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/BiographyPage" element={<Biography />} />
+        <Route path="/ProjectsPage" element={<Projects />} />/
+        <Route path="/ContactPage" element={<Contact />} />
       </Routes>
     </>
   );

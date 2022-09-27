@@ -1,4 +1,4 @@
-import ProjectShop from "./ProjectShop.png";
+import ProjectShop from "./projectsPage/img/ProjectShop.png";
 import styled from "styled-components";
 
 export const WebshopImage = styled.img`

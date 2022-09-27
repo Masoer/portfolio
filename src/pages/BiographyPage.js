@@ -2,14 +2,14 @@ import { useNavigate } from "react-router-dom";
 import {
   Column,
   Container,
+  Image,
+  ImagePhone,
   MarginDiv,
   NewSection,
-  Image,
   StyledButton,
-  ImagePhone,
-} from "./Home";
-import Info from "./Info";
-import PicMe from "./PicMe.jpg";
+} from "../styles/styles";
+import Info from "./biographyPage/components/Info";
+import PicMe from "../img/PicMe.jpg";
 import styled from "styled-components";
 
 export const WidthDiv = styled.div`
