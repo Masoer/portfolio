@@ -3,7 +3,7 @@ import Home from "./pages/HomePage";
 import Projects from "./pages/ProjectsPage";
 import Contact from "./pages/ContactPage";
 import GlobalStyle from "./styles/Globalstyle";
-import { Navbar, Navdiv, StyledLink } from "./components/Navbar";
+import { Navbar, Navdiv, StyledLink } from "./styles/Navbar";
 import Biography from "./pages/BiographyPage";
 
 function App() {
