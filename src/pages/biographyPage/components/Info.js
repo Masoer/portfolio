@@ -2,18 +2,17 @@ const Info = () => {
   return (
     <>
       <p>
-        I am 28 years old woman from Nord-Hordaland. I have a master in
-        Archaeology from the University in Bergen. In spring 2019 I participated
-        in a digital learning project with erasmus+ in Denmark. I enjoy learning
-        new things, and have studied in both the UK and in Rome. Currently I am
-        an entrant at Kodehode, where I'm learning html, css, javascript and
-        react.
+        Jeg er en 28 år gammel kvinne fra Nord-Hordaland, og har en master i
+        Arkeologi fra Universitetet i Bergen. Våren 2019 deltok jeg i et
+        digitalt læringsprosjekt med erasmus+ i Danmark. Jeg liker å lære nye
+        ting, og har studert i både Storbritannia og Roma. For tiden er jeg en
+        deltaker på Kodehode, hvor Jeg lærer html, css, javascript og reagerer.
       </p>
 
       <p>
-        I am bit of a nerd, so in my free time I enjoy playing Dungeons&Dragons,
-        boardgames and magic the gathering. I also enjoy playing videogames such
-        as Zelda: breath of the wild, Witcher 3 and Overwatch.
+        Jeg er litt nerd, så på fritiden liker jeg å spille Dungeons&Dragons,
+        brettspill og magic the gathering. Jeg liker også å spille videospill
+        som Zelda: breath of the wild, Assassin Creed, Witcher 3 og Overwatch.
       </p>
     </>
   );

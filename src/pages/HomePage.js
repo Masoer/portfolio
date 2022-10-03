@@ -40,7 +40,7 @@ const Home = () => {
                   {HOME_PAGE_TEXT.MAIN_TEXT_main.ending}
                 </p>
                 <StyledButton onClick={() => navigate("/BiographyPage")}>
-                  Learn more
+                  Les mer
                 </StyledButton>
               </MarginDiv>
             </Container>

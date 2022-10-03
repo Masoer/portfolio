@@ -27,11 +27,13 @@ const Biography = () => {
             <Image src={PicMe} alt="me" />
             <Container>
               <MarginDiv>
-                <h2>Biography</h2>
+                <h2>Biografi</h2>
 
                 <WidthDiv>
                   <Info />
-                  <StyledButton onClick={() => navigate(-1)}>Back</StyledButton>
+                  <StyledButton onClick={() => navigate(-1)}>
+                    Tilbake
+                  </StyledButton>
                 </WidthDiv>
               </MarginDiv>
             </Container>

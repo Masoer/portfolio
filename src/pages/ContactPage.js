@@ -1,7 +1,8 @@
 const Contact = () => {
   return (
     <>
-      <h1>Contact</h1>
+      <h1>Kontakt</h1>
+      <p>Email: sofie.kodehode@gmail.com</p>
     </>
   );
 };

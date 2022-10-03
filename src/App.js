@@ -14,10 +14,10 @@ function App() {
       <Navbar sticky="top">
         <br></br>
         <Navdiv>
-          <StyledLink to="/"> Home </StyledLink>
-          <StyledLink to="/BiographyPage"> Biography</StyledLink>
-          <StyledLink to="/ProjectsPage">Projects</StyledLink>
-          <StyledLink to="/ContactPage"> Contact</StyledLink>
+          <StyledLink to="/"> Hjem </StyledLink>
+          <StyledLink to="/BiographyPage"> Biografi</StyledLink>
+          <StyledLink to="/ProjectsPage">Prosjekt</StyledLink>
+          <StyledLink to="/ContactPage"> Kontakt</StyledLink>
         </Navdiv>
       </Navbar>
 
