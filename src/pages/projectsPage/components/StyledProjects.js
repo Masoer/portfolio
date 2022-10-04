@@ -14,6 +14,7 @@ export const MainDiv = styled.div`
   color: black;
   margin: 15px;
   text-align: center;
+  margin: 0 10vw;
 `;
 
 export const BoxDiv = styled.div`
@@ -27,7 +28,7 @@ export const BoxDiv = styled.div`
   width: 37vw;
   height: 45vh;
   align-items: center;
-  margin-left: 7.5vh;
+  margin: 1vh;
 
   @media only screen and (max-width: 40em) {
     //mobile friendly

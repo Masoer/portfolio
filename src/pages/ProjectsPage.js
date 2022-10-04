@@ -1,15 +1,6 @@
 import ProjectShop from "./projectsPage/img/ProjectShop.png";
 import todolist from "./projectsPage/img/todolist.png";
-import {
-  Column,
-  Container,
-  Image,
-  ImagePhone,
-  MarginDiv,
-  NewSection,
-  StyledButton,
-  Tittel,
-} from "../styles/styles";
+import { Column, Container, MarginDiv, NewSection } from "../styles/styles";
 
 import {
   BoxDiv,

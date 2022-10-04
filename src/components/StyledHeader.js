@@ -27,18 +27,18 @@ export const Header = styled.header`
 export const NavList = styled.nav`
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+
   transition: 0.6s;
   @media (max-width: 820px) {
     flex-direction: column;
     position: fixed;
-    top: 100px;
+    top: 50px;
     right: 0;
     gap: 40px;
     width: 50%;
-    height: 100vh;
+    height: 85vh;
     padding-top: 40px;
-
+    overflow: hidden;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -46,18 +46,17 @@ export const NavList = styled.nav`
     -webkit-backdrop-filter: blur(40px);
     border: 1px solid rgba(6, 146, 170, 0.65);
 
-    transform: translateX(${(props) => (props.active ? "0" : "100%")});
+    transform: translateX(${(props) => (props.active ? "0%" : "-500%")});
   }
 `;
 
 export const NavToggle = styled.div`
   position: relative;
-  width: 3rem;
-  height: 3.5rem;
+  width: 1rem;
+  height: 1.5rem;
   cursor: pointer;
-  align-self: center;
-  justify-self: center;
   display: none;
+  margin-left: 85%;
 
   .lines {
     position: absolute;

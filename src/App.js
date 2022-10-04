@@ -5,11 +5,14 @@ import Contact from "./pages/ContactPage";
 import GlobalStyle from "./styles/Globalstyle";
 import { Navbar, Navdiv, StyledLink } from "./styles/Navbar";
 import Biography from "./pages/BiographyPage";
+import NavBarHeader from "./components/NavBarHeader";
 
 function App() {
   return (
     <>
       <GlobalStyle />
+
+      <NavBarHeader />
 
       <Navbar sticky="top">
         <br></br>
