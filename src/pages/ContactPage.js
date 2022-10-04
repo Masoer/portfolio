@@ -4,6 +4,7 @@ import { ContactDiv, DivButton } from "./contactPage/ContactStyled";
 const urlGit = "https://github.com/Masoer";
 const urlLinkedin =
   "https://www.linkedin.com/in/margrethe-sofie-erstad-ba01b1249/";
+
 const Contact = () => {
   return (
     <>

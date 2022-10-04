@@ -5,7 +5,6 @@ export const Header = styled.header`
   @media only screen and (max-width: 40em) {
     display: flex;
     justify-content: space-between;
-    font-family: helvetica, arial, sans-serif;
     padding: 10px;
     margin: 0 auto;
     max-width: 90%;
