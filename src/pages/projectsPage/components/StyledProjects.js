@@ -15,6 +15,7 @@ export const MainDiv = styled.div`
   margin: 15px;
   text-align: center;
   margin: 0 10vw;
+  padding-top: 25px;
 `;
 
 export const BoxDiv = styled.div`

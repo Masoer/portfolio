@@ -1,7 +1,9 @@
 import { StyledButton } from "../styles/styles";
+import { ContactDiv, DivButton } from "./contactPage/ContactStyled";
 
-const url = "https://github.com/Masoer";
-
+const urlGit = "https://github.com/Masoer";
+const urlLinkedin =
+  "https://www.linkedin.com/in/margrethe-sofie-erstad-ba01b1249/";
 const Contact = () => {
   return (
     <>
@@ -9,16 +11,28 @@ const Contact = () => {
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
       ></link>
-      <h1>Kontakt</h1>
-      <p>Email: sofie.kodehode@gmail.com</p>
-      <StyledButton
-        onClick={() => {
-          window.location.href = url;
-        }}
-      >
-        Github
-        <i class="fa fa-github"></i>
-      </StyledButton>
+      <ContactDiv>
+        <h2>Kontakt</h2>
+        <p>Email: sofie.kodehode@gmail.com</p>
+        <DivButton>
+          <StyledButton
+            onClick={() => {
+              window.location.href = urlGit;
+            }}
+          >
+            Github
+            <i class="fa fa-github"></i>
+          </StyledButton>
+          <StyledButton
+            onClick={() => {
+              window.location.href = urlLinkedin;
+            }}
+          >
+            Linkedin
+            <i class="fa fa-linkedin-square"></i>
+          </StyledButton>
+        </DivButton>
+      </ContactDiv>
     </>
   );
 };
