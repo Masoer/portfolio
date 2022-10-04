@@ -21,7 +21,7 @@ export const Navbar = styled.ul`
   -webkit-backdrop-filter: blur(9.1px);
   border: 1px solid rgba(6, 146, 170, 0.65);
 
-  @media only screen and (max-width: 80em) {
+  @media only screen and (max-width: 40em) {
     display: none;
   }
 `;

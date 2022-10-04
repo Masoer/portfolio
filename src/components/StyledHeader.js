@@ -56,6 +56,7 @@ export const NavToggle = styled.div`
   height: 1.5rem;
   cursor: pointer;
   display: none;
+
   margin-left: 85%;
 
   .lines {
