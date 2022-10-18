@@ -6,7 +6,7 @@ const Info = () => {
         Arkeologi fra Universitetet i Bergen. Våren 2019 deltok jeg i et
         digitalt læringsprosjekt med erasmus+ i Danmark. Jeg liker å lære nye
         ting, og har studert i både Storbritannia og Roma. For tiden er jeg en
-        deltaker på Kodehode, hvor Jeg lærer html, css, javascript og reagerer.
+        deltaker på Kodehode, hvor jeg lærer html, css, javascript og reagerer.
       </p>
 
       <p>
