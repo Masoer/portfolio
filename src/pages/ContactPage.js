@@ -14,7 +14,7 @@ const Contact = () => {
       ></link>
       <ContactDiv>
         <h2>Kontakt</h2>
-        <p>Email: sofie.kodehode@gmail.com</p>
+        <p>Email: mana_katt@hotmail.com</p>
         <DivButton>
           <StyledButton
             onClick={() => {
