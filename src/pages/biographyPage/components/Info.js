@@ -2,11 +2,18 @@ const Info = () => {
   return (
     <>
       <p>
-        Jeg er en 28 år gammel kvinne fra Nord-Hordaland, og har en master i
-        Arkeologi fra Universitetet i Bergen. Våren 2019 deltok jeg i et
-        digitalt læringsprosjekt med erasmus+ i Danmark. Jeg liker å lære nye
-        ting, og har studert i både Storbritannia og Roma. For tiden er jeg en
-        deltaker på Kodehode, hvor jeg lærer html, css, javascript og reagerer.
+        Jeg er en 20 år gammel kvinne fra Bergen, og har studert IT-utvikling
+        med fokus på Frontend. Jeg har hovedskalig jobbet med React og med html,
+        css og javascript. Har også god forståelse av Github, Figma og
+        ChoiceScript. Min arbeidserfaring i dette feltet kommer fra Jobloop. Her
+        har jeg vært med på å kode og designe et professionelt nettside i et
+        team.{" "}
+      </p>
+      <p>
+        Jeg har også en master i Arkeologi fra Universitetet i Bergen. Våren
+        2019 deltok jeg i et digitalt læringsprosjekt med erasmus+ i Danmark.
+        Gjennom studiet har jeg hatt muligheten til å studere i Storbritannia og
+        Roma.
       </p>
 
       <p>

@@ -9,6 +9,14 @@ import {
   WebshopImage,
 } from "./projectsPage/components/StyledProjects";
 
+import styled from "styled-components";
+
+export const ProjectContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+`;
+
 const Projects = () => {
   return (
     <>
@@ -18,36 +26,37 @@ const Projects = () => {
         <Container>
           <NewSection>
             <Column>
-              <BoxDiv>
-                <h2>Nettbutikk</h2>
-                <a
-                  href="https://masoer.github.io/summertask/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <WebshopImage src={ProjectShop} alt="webshop" type="button" />
-                </a>
-                <p>Laget i React</p>
-              </BoxDiv>
-              <Container>
-                <MarginDiv>
-                  <BoxDiv>
-                    <h2>To do list</h2>
-                    <a
-                      href="https://github.com/Masoer/todolist"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <WebshopImage
-                        src={todolist}
-                        alt="webshop"
-                        type="button"
-                      />
-                    </a>
-                    <p>Laget med javascript</p>
-                  </BoxDiv>
-                </MarginDiv>
-              </Container>
+              <ProjectContainer>
+                <BoxDiv>
+                  <h2>Nettbutikk</h2>
+                  <a
+                    href="https://masoer.github.io/summertask/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <WebshopImage
+                      src={ProjectShop}
+                      alt="webshop"
+                      type="button"
+                    />
+                  </a>
+                  <p>Laget i React</p>
+                </BoxDiv>
+              </ProjectContainer>
+              {/* New Container */}
+              <ProjectContainer>
+                <BoxDiv>
+                  <h2>To do list</h2>
+                  <a
+                    href="https://github.com/Masoer/todolist"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <WebshopImage src={todolist} alt="webshop" type="button" />
+                  </a>
+                  <p>Laget med javascript</p>
+                </BoxDiv>
+              </ProjectContainer>
             </Column>
           </NewSection>
         </Container>

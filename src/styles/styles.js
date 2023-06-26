@@ -45,7 +45,7 @@ export const ImagePhone = styled.img`
 
 export const MarginDiv = styled.div`
   margin-left: 20px;
-  margin-top: 150px;
+  margin-top: 100px;
   @media only screen and (max-width: 40em) {
     margin-top: 50px;
   }
