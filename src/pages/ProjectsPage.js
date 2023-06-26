@@ -1,7 +1,10 @@
 import ProjectShop from "./projectsPage/img/ProjectShop.png";
 import todolist from "./projectsPage/img/todolist.png";
 import spaceimg from "./projectsPage/img/spaceimg.png";
-import { Column, Container, MarginDiv, NewSection } from "../styles/styles";
+import phillipskarriere from "./projectsPage/img/phillipskarriere.png";
+import novel from "./projectsPage/img/novel.png";
+
+import { Column, Container, NewSection } from "../styles/styles";
 
 import {
   BoxDiv,
@@ -28,15 +31,15 @@ const Projects = () => {
             <Column>
               <ProjectContainer>
                 <BoxDiv>
-                  <h2>Nettbutikk</h2>
+                  <h2>Phillipskarriere.no</h2>
                   <a
-                    href="https://masoer.github.io/summertask/"
+                    href="https://www.phillipskarriere.no/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <WebshopImage
-                      src={ProjectShop}
-                      alt="webshop"
+                      src={phillipskarriere}
+                      alt="phillipskarriere.no"
                       type="button"
                     />
                   </a>
@@ -64,20 +67,67 @@ const Projects = () => {
         <Container>
           <NewSection>
             <Column>
-              <BoxDiv>
-                <h2>Verdensrommet</h2>
-                <a
-                  href="https://masoer.github.io/fallproject/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <WebshopImage src={spaceimg} alt="spacesite" type="button" />
-                </a>
-                <p>Laget i React</p>
-              </BoxDiv>
-              <Container>
-                <MarginDiv>{/* <BoxDiv>For a new box</BoxDiv> */}</MarginDiv>
-              </Container>
+              <ProjectContainer>
+                <BoxDiv>
+                  <h2>Verdensrommet</h2>
+                  <a
+                    href="https://masoer.github.io/fallproject/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <WebshopImage
+                      src={spaceimg}
+                      alt="spacesite"
+                      type="button"
+                    />
+                  </a>
+                  <p>Laget i React</p>
+                </BoxDiv>
+              </ProjectContainer>
+
+              <ProjectContainer>
+                <BoxDiv>
+                  <h2>Nettbutikk</h2>
+                  <a
+                    href="https://masoer.github.io/summertask/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <WebshopImage
+                      src={ProjectShop}
+                      alt="webshop"
+                      type="button"
+                    />
+                  </a>
+                  <p>Laget i React</p>
+                </BoxDiv>
+              </ProjectContainer>
+            </Column>
+          </NewSection>
+        </Container>
+      </MainDiv>
+
+      <MainDiv>
+        <Container>
+          <NewSection>
+            <Column>
+              <ProjectContainer>
+                <BoxDiv>
+                  <h2>Interaktiv novelle </h2>
+                  <a
+                    href="https://dashingdon.com/play/cesela/footsteps/mygame/index.php?cb=14696"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <WebshopImage
+                      src={novel}
+                      alt="interactive novel"
+                      type="button"
+                    />
+                  </a>
+                  <p>Laget med ChoiceScript</p>
+                </BoxDiv>
+              </ProjectContainer>
             </Column>
           </NewSection>
         </Container>
