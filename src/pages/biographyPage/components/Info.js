@@ -2,7 +2,7 @@ const Info = () => {
   return (
     <>
       <p>
-        Jeg er en 20 år gammel kvinne fra Bergen, og har studert IT-utvikling
+        Jeg er en 29 år gammel kvinne fra Bergen, og har studert IT-utvikling
         med fokus på Frontend. Jeg har hovedskalig jobbet med React og med html,
         css og javascript. Har også god forståelse av Github, Figma og
         ChoiceScript. Min arbeidserfaring i dette feltet kommer fra Jobloop. Her
