@@ -6,7 +6,7 @@ const Info = () => {
         med fokus på Frontend. Jeg har hovedskalig jobbet med React og med html,
         css og javascript. Har også god forståelse av Github, Figma og
         ChoiceScript. Min arbeidserfaring i dette feltet kommer fra Jobloop. Her
-        har jeg vært med på å kode og designe et professionelt nettside i et
+        har jeg vært med på å kode og designe en professionelt nettside i et
         team.{" "}
       </p>
       <p>
